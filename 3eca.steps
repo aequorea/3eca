@@ -1,0 +1,19 @@
+3eca steps
+----------
+
+download 3eca.pdb from rcsb.org
+save as 3ecaA.pdb
+type findSurfaceResidues
+save atoms as 3ecaA_exposed_atm.pdb
+save residues as 3ecaA_exposed_res.pdb
+select helix, ss H
+save as 3ecaA_helix.pdb
+select sheet, ss S
+save as 3ecaA_sheet.pdb
+
+output
+------
+
+sheet -- [186*, 181*, 47]
+helix -- [320*, 129*, 263, 74*, 43*, 312*, 254*]
+coil --  [162*, 283*, 104, 279*, 172*, 207, 22, 151*, 184*, 250*, 27*, 62]
